@@ -2,13 +2,23 @@
 {% load static %}
 
 {% block content %}
-<h1 class="display-4 text-success">It works!</h1>
 
 <!-- About us -->
 
+<div class="contianer-fluid">
+    <div class="row">
+        <div class="col-6">
+            <p>text area</p>
+        </div>
+        <div class="col-6">
+            <p class="text-center">image area</p>
+        </div>
+    </div>
+</div>
+
 <!-- Product Details -->
-<div class="container">
-    <h2 class="text-center">Our Product Detials</h2>
+<div class="container-fluid bg-dark">
+    <h2 class="text-center" style="color: aliceblue;">Our Product Detials</h2>
     <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -45,88 +55,133 @@
 </div>
 
 <!-- Reviews -->
-<div class="container">
-    <h2 class="text-center">Client Reviews</h2>
-    <div class="card">
-        <div class="card-header">
-            Quote
+<div class="container-fluid bg-dark">
+    <h2 class="text-center text-white"> Reviews </h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-green rounded-5 shadow-lg"
+               style="background-color: rgb(2, 180, 2);">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"> These snacks are amazin, and everyone loves it at the office!</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                        <li class="d-flex align-items-center me-3">
+                            <small>- CorpoA</small>
+                        </li>
+                        <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em">
+                                <use xlink:href="#geo-fill" />
+                            </svg>
+                            <small>Bristol, UK</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="card-body">
-            <blockquote class="blockquote mb-0">
-                <p>A well-known quote, contained in a blockquote element.</p>
-                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-            </blockquote>
+
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-blue rounded-5 shadow-lg"
+                style="background-color: blue;">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                        Much Loved Snacks at work, everyone enjoys 'em!
+                    </h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                        <li class="d-flex align-items-center me-3">
+                            <small>- BigTechFirm</small>
+                        </li>
+                        <li class="d-flex align-items-center me-3">
+                            <small>Cardiff, Wales</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="card">
-        <div class="card-header">
-            Quote
-        </div>
-        <div class="card-body">
-            <blockquote class="blockquote mb-0">
-                <p>A well-known quote, contained in a blockquote element.</p>
-                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-            </blockquote>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-header">
-            Quote
-        </div>
-        <div class="card-body">
-            <blockquote class="blockquote mb-0">
-                <p>A well-known quote, contained in a blockquote element.</p>
-                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-            </blockquote>
+
+        <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-purple rounded-5 shadow-lg"
+                style="background-color: rgb(197, 8, 197);">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                        Vegan friendly snacks, caters to everyones needs!
+                    </h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                        <li class="d-flex align-items-center me-3">
+                            <small>- XyenoTech</small>
+                        </li>
+                        <li class="d-flex align-items-center me-3">
+                            <small>London, UK</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 <!-- FAQ -->
-<div class="container">
-    <h2 class="text-center">Frequently Asked Questions</h2>
+<div class="container-fluid bg-dark">
+    <h2 class="text-center text-white">Frequently Asked Questions</h2>
     <div class="container">
         <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Accordion Item #1
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+                    style="background-color: #dbbe67;">
+                    1. Are your chocolates made with natural ingredients?
                 </button>
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                    <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                <div class="accordion-body" style="background-color: #dba400;">Yes, absolutely! Our chocolates are crafted using premium natural ingredients. We prioritize quality and ensure that our
+                chocolates are free from artificial preservatives, colors, and flavors. Indulge guilt-free in the goodness of pure and
+                natural ingredients.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed" style="background-color: #dbbe67;"
+                type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Accordion Item #2
+                    2. What makes your soft drinks healthier than traditional sodas?
                 </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                    <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
-                    filled with some actual content.</div>
+                <div class="accordion-body" style="background-color: #dba400;">Our soft drinks are crafted with a focus on health and wellness. We use natural sweeteners, and many of our drinks are
+                low in added sugars. Additionally, you'll find no artificial additives or high-fructose corn syrup. Sip on refreshment
+                without compromising on your health goals.</div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed" style="background-color: #dbbe67;" type="button" data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    Accordion Item #3
+                    3. Do your crisps contain any gluten or allergens?
                 </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                    <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-                    happening here in terms of content, but just filling up the space to make it look, at least at first
-                    glance, a bit more representative of how this would look in a real-world application.</div>
+                data-bs-parent="#accordionFlushExample" style="background-color: #dba400;">
+                <div class="accordion-body">We understand the importance of catering to various dietary needs. Our crisps are gluten-free, and we offer options that
+                cater to specific allergens. Each product is clearly labeled, and we take great care to ensure that our snacks can be
+                enjoyed by individuals with diverse dietary requirements.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" style="background-color: #dbbe67;" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    4. How do you contribute to sustainability in your packaging?
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample" style="background-color: #dba400;">
+                <div class="accordion-body">
+                    Sustainability is a core value for us. We use eco-friendly packaging materials that are recyclable and, in some cases,
+                    biodegradable. Our commitment to the environment extends beyond our snacks to the very packaging they come in. Join us
+                    in our journey toward a greener, healthier planet.
+                </div>
             </div>
         </div>
         </div>
