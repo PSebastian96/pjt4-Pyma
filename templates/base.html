@@ -11,14 +11,10 @@
     {% endblock %} {% block extra_meta %} {% endblock %} {% block corecss %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Nanum+Pen+Script&family=Rubik+Moonrocks&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap" />
     <link rel="stylesheet" href="{% static 'css/base.css' %}" />
     {% endblock %} {% block extra_css %} {% endblock %} {% block corejs %}
-    <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/af0862fd41.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -36,29 +32,30 @@
 
 <body>
     <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
-            <div class="col-12 col-lg-3 my-auto py-1 py-lg-0 text-center text-lg-left">
+        <div id="topnav" class="row bg-dark pt-lg-2 d-none d-lg-flex">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0 swanky">
+                    <h2 class="logo-font text-black my-0">
                         Pyma Snacks
                     </h2>
                 </a>
             </div>
-            <div class="col-12 col-lg-6 my-auto py-1 py-lg-0 text-center text-lg-center">
-                <a href="" class="nav-link main-logo-link nanumpen">
-                    All Products
-                </a>
-                <a href="" class="nav-link main-logo-link nanumpen">
-                    Choco Bars
-                </a>
-                <a href="" class="nav-link main-logo-link nanumpen">
-                    Crisps
-                </a>
-                <a href="" class="nav-link main-logo-link nanumpen">
-                    Drinks
-                </a>
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                <form method="GET" action="#">
+                    <div class="input-group w-100">
+                        <input class="form-control border border-black rounded-0" type="text" name="q"
+                            placeholder="Search for snacks :)" />
+                        <div class="input-group-append">
+                            <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                                <span class="icon">
+                                    <i class="fas fa-search"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div class="col-12 col-lg-3 my-auto py-1 py-lg-0">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown"
@@ -71,21 +68,21 @@
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
-                            <a href="" class="dropdown-item">Product Management</a>
+                            <a href="#" class="dropdown-item">Product Management</a>
                             {% endif %}
-                            <a href="" class="dropdown-item">My Profile</a>
-                            <a href="" class="dropdown-item">Logout</a>
+                            <a href="#" class="dropdown-item">My Profile</a>
+                            <a href="#" class="dropdown-item">Logout</a>
                             {% else %}
-                            <a href="" class="dropdown-item">Register</a>
-                            <a href="" class="dropdown-item">Login</a>
+                            <a href="#" class="dropdown-item">Register</a>
+                            <a href="#" class="dropdown-item">Login</a>
                             {% endif %}
                         </div>
                     </li>
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
-                            href="">
+                            href="#">
                             <div class="text-center">
-                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                                <div><i class="fa-solid fa-basket-shopping"></i></div>
                                 <p class="my-0">
                                     {% if grand_total %} £{{ grand_total|floatformat:2 }}
                                     {% else %} £0.00 {% endif %}
@@ -96,21 +93,15 @@
                 </ul>
             </div>
         </div>
-        <div class="row bg-white">
-            <nav class="navbar navbar-expand-lg navbar-light w-100">
+        <div class="row transparent">
+            <nav class="navbar navbar-expand-lg bg-dark w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
                     aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                
+                {% include 'includes/mobile-top-header.html' %}
+                {% include 'includes/main-nav.html' %}
             </nav>
-        </div>
-        <div id="delivery-banner" class="row text-center">
-            <div class="col bg-black text-white">
-                <h4 class="logo-font my-1">
-                    Free delivery on orders over ${{ free_delivery_threshold }}!
-                </h4>
-            </div>
         </div>
     </header>
 
@@ -123,8 +114,59 @@
         {% else %} {% include 'includes/toasts/toast_info.html' %} {% endif %}
         {% endwith%} {% endfor %}
     </div>
-    {% endif %} {% block page_header %} {% endblock %} {% block content %}
-    {% endblock %} {% block postloadjs %}
+    {% endif %} 
+
+    {% block page_header %} 
+    {% endblock %} 
+    
+    {% block content %}
+    {% endblock %} 
+    
+    <footer>
+        <div class="row bg-dark">
+            <div class="col-6 text-center">
+                <h4>Socials:</h4>
+                <div class="container">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <h4>Company Info:</h4>
+                <div class="col-12">
+                    <p>comapny number 5678</p>
+                    <p>comapny number 5678</p>
+                    <p>comapny number 5678</p>
+                </div>
+            </div>
+            <div class="col-6 text-center">
+                <h4>Contact: </h4>
+                <div class="col-12">
+                    <i class="fa-solid fa-at"></i>
+                    <span>Email: </span>
+                    <p>contact@pymasnakcs.com</p>
+                </div>
+                <div class="col-12">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Phone: </span>
+                    <p>1234567890</p>
+                </div>
+                <div class="col-12">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Address: </span>
+                    <p>Bristol,United Kingdom</p>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-dark">
+            <div class="col-12 text-center">
+                <p>&copy;| {{ present_year }} Pyma Snacks Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    {% block postloadjs %}
     <script type="text/javascript">
         $(".toast").toast("show");
     </script>
