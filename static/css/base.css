@@ -18,6 +18,20 @@ html {
     font-family: 'Rubik Moonrocks', sans-serif;
 }
 
+/* review stars checked class*/
+
+.checked {
+    color: #ffc107;
+}
+
+/* hero image main */
+
+.hero-img {
+    background-image: url('/media/heroimage.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
 /* from Bulma */
 .icon {
     align-items: center;
