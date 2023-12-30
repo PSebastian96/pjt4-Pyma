@@ -24,13 +24,6 @@ html {
     color: #ffc107;
 }
 
-/* hero image main */
-
-.hero-img {
-    background: url('/media/heroimage.png') no-repeat center center fixed;
-    background-size: cover;
-}
-
 /* background colours */
 
 .bg-navyblue {
