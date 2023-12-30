@@ -24,6 +24,12 @@ html {
     color: #ffc107;
 }
 
+.hero-img {
+    width: 30vh;
+    height: 30vh;
+    object-fit: cover;
+}
+
 /* background colours */
 
 .bg-navyblue {
@@ -93,7 +99,7 @@ html {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: rgb(9, 9, 154);
     color: white;
 }
 
