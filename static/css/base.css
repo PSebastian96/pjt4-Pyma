@@ -44,14 +44,11 @@ html {
     background-color: rgb(8, 8, 72);
 }
 
-/* extra padding */
+/* custom box style */
 
-.x-pb {
-    padding-bottom: 50px;
-}
-
-.x-bt {
-    padding-top: 50px;
+.blue-box{
+    border-width: 30px;
+    border-color: white;
 }
 
 /* from Bulma */
