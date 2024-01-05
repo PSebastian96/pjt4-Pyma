@@ -14,6 +14,11 @@ html {
     font-size: x-large;
 }
 
+.text-sm {
+    font-size: 8px;
+    color: red;
+}
+
 .rubik {
     font-family: 'Rubik Moonrocks', sans-serif;
 }
@@ -42,13 +47,6 @@ html {
 
 .bg-darkblue {
     background-color: rgb(8, 8, 72);
-}
-
-/* custom box style */
-
-.blue-box{
-    border-width: 30px;
-    border-color: white;
 }
 
 /* from Bulma */
@@ -310,33 +308,6 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-}
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-}
-
 .nav-link {
     padding: 0.15rem;
 }
@@ -370,3 +341,30 @@ input[name='q']::placeholder {
 .decrement-qty {
     padding: .25rem .5rem !important;
 }
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
+
+/* padding top on nav for mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+}
+
