@@ -11,12 +11,7 @@ html {
 
 .nanumpen {
     font-family: 'Nanum Pen Script', cursive;
-    font-size: x-large;
-}
-
-.text-sm {
-    font-size: 8px;
-    color: red;
+    font-size: large;
 }
 
 .rubik {
