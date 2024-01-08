@@ -12,11 +12,11 @@
 
 {% block content %}
 <div class="overlay"></div>
-<div class="container mb-2">
+<div class="container mb-2 pb-5">
     <div class="row">
         <div class="col">
             <hr>
-            <h2 class="logo-font mb-4">Shopping Bag</h2>
+            <h2 class="logo-font pt-5 mb-4 text-white rubik">Shopping Bag</h2>
             <hr>
         </div>
     </div>
@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col">
                         {% include "bag/checkout-buttons.html" %}
-                        <p class="text-muted mb-5">A summary of your bag contents is below</p>
+                        <p class="text-white mb-5">A summary of your bag contents is below</p>
                     </div>
                 </div>
                 {% for item in bag_items %}
@@ -108,8 +108,8 @@
                 </table>
             </div>
             {% else %}
-            <p class="lead mb-5">Your bag is empty.</p>
-            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+            <p class="lead text-white mb-5">Your bag is empty.</p>
+            <a href="{% url 'products' %}" class="shop-now-button btn-lg">
                 <span class="icon">
                     <i class="fas fa-chevron-left"></i>
                 </span>
