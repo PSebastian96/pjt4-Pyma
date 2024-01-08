@@ -68,8 +68,8 @@ html {
     border-radius: 40px;
 }
 
-.btn-black {
-    background: black;
+.btn-blue {
+    background: rgb(23, 23, 192);
     color: white;
 }
 
@@ -89,11 +89,15 @@ html {
 
 .shop-now-button:hover,
 .shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: rgb(9, 9, 154);
+.shop-now-button:focus {
+    background: rgb(1, 1, 164);
+    color: white;
+}
+
+.btn-blue:hover,
+.btn-blue:active,
+.btn-blue:focus {
+    background: rgb(0, 0, 255);
     color: white;
 }
 
