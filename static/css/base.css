@@ -61,6 +61,8 @@ html {
     width: fit-content;
 }
 
+/* buttons */
+
 .shop-now-button {
     background: rgb(31, 31, 249);
     color: white;
@@ -100,6 +102,8 @@ html {
     background: rgb(0, 0, 255);
     color: white;
 }
+
+/* text, overlay */
 
 .text-black {
     color: #000 !important;
