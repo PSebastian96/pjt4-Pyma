@@ -38,6 +38,9 @@
                         <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
                     </a>
                 </p>
+                <p class="small mt-1 mb-0 text-primary">
+                    <i class="fa-solid fa-box-open"></i> Volume: {{ product.volume }}
+                </p>
                 {% endif %} 
                 {% if request.user.is_superuser %}
                 <small class="ml-3">
