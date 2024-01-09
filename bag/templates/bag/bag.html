@@ -67,7 +67,7 @@
                     </div>
                     <div class="table-responsive rounded d-none d-md-block">
                         <table class="table table-sm table-borderless">
-                            <thead class="text-black">
+                            <thead class="text-white nanumpen">
                                 <tr>
                                     <th scope="col">Product Info</th>
                                     <th scope="col"></th>
@@ -85,14 +85,14 @@
                                 <td class="py-3">
                                     {% include "bag/product-info.html" %}
                                 </td>
-                                <td class="py-3">
+                                <td class="py-3 text-white">
                                     <p class="my-0">£{{ item.product.price }}</p>
                                 </td>
-                                <td class="py-3 w-25">
+                                <td class="py-3 w-25 text-white">
                                     {% include "bag/quantity-form.html" %}
                                 </td>
                                 <td class="py-3">
-                                    <p class="my-0">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
+                                    <p class="my-0 text-white">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
                                 </td>
                             </tr>
                             {% endfor %}
