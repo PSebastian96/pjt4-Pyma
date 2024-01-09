@@ -103,7 +103,19 @@ html {
     color: white;
 }
 
+/* horizontal rule */
+
+hr{
+    width: 5px;
+    color: #ffffff;
+}
+
 /* text, overlay */
+
+.modal-price {
+    color: red;
+    text-decoration: underline;
+}
 
 .text-black {
     color: #000 !important;
