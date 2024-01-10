@@ -1,28 +1,4 @@
 <ul class="list-inline">
-    <li class="list-inline-item pl-0 pr-0">
-        <a class="text-white nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            <div class="text-center text-white nanumpen">
-                <div><i class="fas fa-search fa-lg"></i></div>
-                <p class="my-0 text-white">Search</p>
-            </div>
-        </a>
-        <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0 bg-primary pl-0 pr-0" aria-labelledby="mobile-search">
-            <form class="form" method="GET" action="#">
-                <div class="input-group w-100 bg-darkblue nanumpen">
-                    <input class="form-control border border-black rounded-0" type="text" name="q"
-                        placeholder="Search for snacks :)">
-                    <div class="input-group-append">
-                        <button class="form-control form-control btn bg-primary border border-black rounded-0" type="submit">
-                            <span class="icon text-white">
-                                <i class="fas fa-search"></i>
-                            </span>
-                        </button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </li>
     <li class="list-inline-item dropdown pl-0 pr-0">
         <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
@@ -46,7 +22,7 @@
     </li>
     <li class="list-inline-item pl-0 pr-0">
         <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none"
-            href="#">
+            href="{% url 'view_bag' %}">
             <div class="text-center text-white pl-0 pr-0">
                 <div><i class="fa-solid fa-basket-shopping"></i></div>
                 <p class="my-0 nanumpen">
