@@ -3,10 +3,22 @@
 
 {% block content %}
 
+{% block extra_js %}
+ <!-- Emailjs API-->
+<script type="text/javascript"
+ src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function(){
+    emailjs.init("yp1Kp6JP0h3vnCeFf");
+    })();
+</script>
+{% endblock %}
+
 <div class="container-fluid bg-navyblue pt-5 pb-5 my-0"></div>
 
 
-<!-- Subscription tiers-->
+<!-- Corporate subscription-->
 
 <div class="bg-navyblue pt-5 pb-3">
     <h1 class="text-center text-white rubik pt-3">Corporate Package</h1>
@@ -28,7 +40,7 @@
                     </ul>
                 </div>
                 <div class="card-header bg-darkblue">
-                    <h4 class="my-0 bg-darkblue">Contact us by phone or fill the form:</h4>
+                    <h4 class="my-0 bg-darkblue">To get a quote, contact us by phone or fill the form:</h4>
                 </div>
                 <ul class="list-unstyled mt-3 mb-4 text-primary">
                     <i class="fa-solid fa-phone"></i>
@@ -38,20 +50,62 @@
             </div>
             <div class="card mb-4 shadow-sm bg-darkblue text-white nanumpen">
                 <div class="card-header bg-darkblue">
-                    <h4 class="my-0 bg-darkblue">What we offer your company is:</h4>
+                    <h4 class="my-0 bg-darkblue">Get your qoute:</h4>
                 </div>
                 <div class="card-body">
-                    <ul class="list-unstyled mt-3 mb-4 text-primary">
-                        <li>Weekly snack boxes</li>
-                        <li>Staff discounts</li>
-                        <li>Phone and email support</li>
-                        <li>Help center access</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-primary nanumpen">Contact us</button>
+                    <form class="col s12 m8 offset-m2" onsubmit="return sendMail(this);">
+   
+                        <div class="card-panel">
+                          
+                          <!-- name -->
+                          <div class="row">
+                            <label for="username">Name</label>
+                            <div class="input-field col">
+                              <input
+                                id="username"
+                                name="username"
+                                type="text"
+                                minlength="5"
+                                maxlength="15"
+                                pattern="^[a-zA-Z0-9]{5,15}$"
+                                class="#"
+                                required/>
+                            </div>
+                          </div>
+                          
+                          <!-- email -->
+                          <div class="row">
+                            <label for="email">Email</label>
+                            <div class="input-field col">
+                              <input
+                                id="emailaddress"
+                                name="emailaddress"
+                                type="email"
+                                class="#"
+                                required/>
+                            </div>
+                          </div>
+                          
+                          <!-- message box -->
+                          <div class="row"> 
+                            <label for="message">Message</label>
+                            <div class="input-field col">
+                            <textarea id="message" name="messagesummary" class="#" rows="4" cols="25"></textarea>
+                            </div>
+                          </div>
+                          <div class="bg-darkblue pt-5">
+                                <button type="button" class="btn btn-lg btn-block btn-primary nanumpen">Contact us</button>
+                          </div>
+                        </div>
+                      </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+{% endblock %}
+
+{% block postloadjs %} 
+<script src="{% static 'subscriptions/js/emailjs.js' %}"></script>
 {% endblock %}
