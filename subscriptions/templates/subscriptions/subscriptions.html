@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'subscriptions/css/contact.css' %}" />
+{% endblock %} 
+
+{% block extra_js %}
+ <!-- Emailjs API-->
+<script type="text/javascript"
+ src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function(){
+    emailjs.init("yp1Kp6JP0h3vnCeFf");
+    })();
+</script>
+{% endblock %}
+
+<div class="container-fluid bg-navyblue pt-5 pb-5 my-0"></div>
+
+
+<!-- Corporate subscription-->
+
+<div class="bg-navyblue pt-5 pb-3">
+    <h1 class="text-center text-white rubik pt-3">Corporate Package</h1>
+</div>
+
+<div class="container-fluid bg-navyblue pt-3">
+    <div class="container">
+        <div class="card-deck pb-5 text-center">
+            <div class="card mb-4 shadow-sm bg-darkblue text-white nanumpen">
+                <div class="card-header bg-darkblue">
+                    <h4 class="my-0 bg-darkblue">What we offer your company is:</h4>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled mt-3 mb-4 text-primary">
+                        <li><strong class="text-white">-</strong> Weekly snack boxes</li>
+                        <li><strong class="text-white">-</strong> Staff discounts</li>
+                        <li><strong class="text-white">-</strong> Phone and email support</li>
+                        <li><strong class="text-white">-</strong> Help center access</li>
+                    </ul>
+                </div>
+                <div class="card-header bg-darkblue">
+                    <h4 class="my-0 bg-darkblue">To get a quote, contact us by phone or fill the form:</h4>
+                </div>
+                <ul class="list-unstyled mt-3 mb-4 text-primary">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Phone: </span>
+                    <p>1234567890</p>
+                </ul>
+            </div>
+            <div class="card mb-4 shadow-sm bg-darkblue text-white nanumpen">
+                <div class="card-header bg-darkblue">
+                    <h4 class="my-0 bg-darkblue">Get your qoute:</h4>
+                </div>
+                <div class="card-body">
+                    <form class="col s12 m8 offset-m2" onsubmit="return sendMail(this);">
+   
+                        <div class="card-panel">
+                          
+                          <!-- name -->
+                          <div class="row">
+                            <label for="username">Name</label>
+                            <div class="input-field col">
+                              <input
+                                id="username"
+                                name="username"
+                                type="text"
+                                minlength="5"
+                                maxlength="15"
+                                pattern="^[a-zA-Z0-9]{5,15}$"
+                                class="#"
+                                required/>
+                            </div>
+                          </div>
+                          
+                          <!-- email -->
+                          <div class="row">
+                            <label for="emailaddress">Email</label>
+                            <div class="input-field col">
+                              <input
+                                id="emailaddress"
+                                name="emailaddress"
+                                type="email"
+                                class="#"
+                                required/>
+                            </div>
+                          </div>
+                          
+                          <!-- message box -->
+                          <div class="row"> 
+                            <label for="message">Message</label>
+                            <div class="input-field col">
+                            <textarea id="message" name="messagesummary" class="#" rows="4" cols="25"></textarea>
+                            </div>
+                          </div>
+                          <div class="bg-darkblue pt-5">
+                                <button type="submit" id="contact-btn" class="btn btn-lg btn-block btn-primary nanumpen">Contact us</button>
+                          </div>
+                          <div id="msg-container">
+                            <div class="success" id="success">Query sent successfully!</div>
+                            <div class="failed" id="failed">Fill the form!</div>
+                         </div>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{% static 'subscriptions/js/emailjs.js' %}"></script>
+<script src="{% static 'subscriptions/js/messagescript.js' %}"></script>
+
+{% endblock %}
