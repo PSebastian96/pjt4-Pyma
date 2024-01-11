@@ -172,7 +172,8 @@ Do not commit with this database string in the code to avoid leaving database UR
 
 <details>
     <summary><h3>Heroku</h3></summary>
-    - Create a Heroku application by pressing "New" on located on the upper right side of the main page
+
+- Create a Heroku application by pressing "New" on located on the upper right side of the main page
 - Select: 'Create new app' from the dropdown menu.
 - Go to the next page, fill the form with the following data: 'App name' and 'Choose a region'
 - Press 'Create app'
@@ -227,7 +228,7 @@ Config Vars in Heroku should have:
 </details>
 
 <details>
-<summary>Connect the Heroku application to the GitHub repository</summary>
+    <summary><h3>Connect the Heroku application to the GitHub repository</h3></summary>
 
 - Go on the Heroku page of the application then 'navigate to the Deploy' tab
 - Scroll down to 'Deployment method' and select GitHub
