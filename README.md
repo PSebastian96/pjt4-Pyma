@@ -134,7 +134,7 @@ git push Modifications pushed to the main branch will be implemented in the live
         - Import dj_database_url underneath the import for os in settings.py: import os import dj_database_url
         - Update the DATABASES to the following code, so that the original connection to sqlite3 is commented out and we connect to the new ElephantSQL database instead. Paste in your ElephantSQL database URL.
         <br/>
-        ```
+        ```python
                     #   DATABASES = {
                     #       'default': {
                     #           'ENGINE': 'django.db.backends.sqlite3',
