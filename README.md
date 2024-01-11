@@ -119,8 +119,6 @@ git push Modifications pushed to the main branch will be implemented in the live
     - Set the environment variables (same values as later in Heroku Config Vars)
 </details>
 
-<br/>
-
 <details>
     <summary><h3>ElephantSQL</h3></summary>
     1. Create an account on ElephantSQL and click "Create New Instance"
@@ -137,13 +135,13 @@ git push Modifications pushed to the main branch will be implemented in the live
         - Update the DATABASES to the following code, so that the original connection to sqlite3 is commented out and we connect to the new ElephantSQL database instead. Paste in your ElephantSQL database URL.
         <br/>
         ```
-                # DATABASES = {
-                #     'default': {
-                #         'ENGINE': 'django.db.backends.sqlite3',
-                #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-                #     }
-                # }
-                        
+                    #   DATABASES = {
+                    #       'default': {
+                    #           'ENGINE': 'django.db.backends.sqlite3',
+                    #           'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+                    #           }
+                    #          }
+
                 DATABASES = {
                     'default': dj_database_url.parse('database-url-here')
                 }
