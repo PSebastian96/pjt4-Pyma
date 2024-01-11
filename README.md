@@ -239,7 +239,7 @@ Config Vars in Heroku should have:
 </details>
 
 <details>
-<summary>Configure Amazon Web Services S3 to store static files and images</summary>
+<summary><h3>Configure Amazon Web Services S3 to store static files and images</h3></summary>
 
 - Go to aws.amazon.com - create an account and log in
 - Access the S3 services from the dashboard
