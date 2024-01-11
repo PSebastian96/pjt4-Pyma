@@ -80,3 +80,34 @@ git commit -m "your message"
 <br/>
 git push Modifications pushed to the main branch will be implemented in the live project after re-deployment from Heroku. Ensure that you do not include DEBUG=True in the settings.py file on GitHub; this setting is intended exclusively for local use.
 </details>
+
+<br/>
+
+<details>
+    <summary><h2>How to Fork</h2></summary>
+1. Go to the https://github.com/PSebastian96/pjt4-Pyma repository.
+<br/>
+2. Click the fork button in the top right of the screen, between the watch, and the star buttons.
+</details>
+
+<br/>
+
+## Deployment of the project
+
+<details>
+    <summary><h2>Create a respository on GitHub</h2></summary>
+    - Use the CI Full Template to create a project
+    - Click on 'Use this template' then 'Create a new respository'
+    - Fill out the form, especially the 'Repository name' then click on 'Create repository'
+    - Copy over the URL of the repository and paste it into a New Workspace on Codeanywhere then it will start to build.
+    - Install Django and supporting libraries in the terminal:
+    - Create requirements file: 'pip3 freeze --local > requirements.txt'
+    - Create Project: 'django-admin startproject PROJ_NAME .'
+    - Create App: 'python3 manage.py startapp APP_NAME'
+    - Create a new env.py file in the root directory and include the database:
+        - 'import os' on the top in env.py file
+    - Set the environment variables (same values as later in Heroku Config Vars)
+</details>
+
+<br/>
+
