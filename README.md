@@ -92,7 +92,7 @@ git push Modifications pushed to the main branch will be implemented in the live
 
 <br/>
 
-## Deployment of the project
+### Deployment of the project
 
 <details>
     <summary><h2>Create a respository on GitHub</h2></summary>
@@ -120,4 +120,19 @@ git push Modifications pushed to the main branch will be implemented in the live
 </details>
 
 <br/>
+
+<details>
+    <summary>ElephantSQL</summary>
+    1. Create an account on ElephantSQL and click "Create New Instance"
+    2. In "Create new instance" section setup details:
+        - Select the TINY TURTLE database plan and name,
+        - Select region, click confirm
+    3. In the Details section you will find the URL which is necessary for the DATABASE_URL config variable later on Heroku. Connecting ElephantSQL database in Code Anywhere/Gitpod
+    <br/>
+    After having our instance created on Elephant SQL and the app on Heroku:
+        - After installing dj_database_url and psycopg2 in the terminal
+        - Import dj_database_url underneath the import for os in settings.py: import os import dj_database_url
+        - Update the DATABASES to the following code, so that the original connection to sqlite3 is commented out and we connect to the new ElephantSQL database instead. Paste in your ElephantSQL database URL.
+        ![Alt text](image.png)
+</details>
 
