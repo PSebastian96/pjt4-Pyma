@@ -95,7 +95,7 @@ git push Modifications pushed to the main branch will be implemented in the live
 ### Deployment of the project
 
 <details>
-    <summary><h2>Create a respository on GitHub</h2></summary>
+    <summary><h3>Create a respository on GitHub</h3></summary>
     - Use the CI Full Template to create a project
     <br/>
     - Click on 'Use this template' then 'Create a new respository'
@@ -122,17 +122,31 @@ git push Modifications pushed to the main branch will be implemented in the live
 <br/>
 
 <details>
-    <summary>ElephantSQL</summary>
+    <summary><h3>ElephantSQL</h3></summary>
     1. Create an account on ElephantSQL and click "Create New Instance"
+    <br/>
     2. In "Create new instance" section setup details:
         - Select the TINY TURTLE database plan and name,
         - Select region, click confirm
+        <br/>
     3. In the Details section you will find the URL which is necessary for the DATABASE_URL config variable later on Heroku. Connecting ElephantSQL database in Code Anywhere/Gitpod
     <br/>
     After having our instance created on Elephant SQL and the app on Heroku:
         - After installing dj_database_url and psycopg2 in the terminal
         - Import dj_database_url underneath the import for os in settings.py: import os import dj_database_url
         - Update the DATABASES to the following code, so that the original connection to sqlite3 is commented out and we connect to the new ElephantSQL database instead. Paste in your ElephantSQL database URL.
-        ![Alt text](image.png)
+        <br/>
+        ```
+                # DATABASES = {
+                #     'default': {
+                #         'ENGINE': 'django.db.backends.sqlite3',
+                #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+                #     }
+                # }
+                        
+                DATABASES = {
+                    'default': dj_database_url.parse('database-url-here')
+                }
+        ```
 </details>
 
