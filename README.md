@@ -56,6 +56,34 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 
 <hr>
 
+<a name="tech"></a>
+# Technologies Used
+
+### Languages:
+
+- HTML5 [https://developer.mozilla.org/en-US/docs/Web/HTML]
+- CSS3 [https://developer.mozilla.org/en-US/docs/Web/CSS]
+- Javascript/JQuery [https://api.jquery.com]
+- Python3 [https://docs.python.org/3/]
+
+### Framework, Libraries:
+
+- [Github](https://github.com) Was used to store the repository and files for the project.  
+- [Gitpod](https://www.gitpod.io/docs/introduction) was used for version control, allowing me to commit changes and push them to GitHub directly from the Gitpod terminal. It was the primary code editor.
+- [Google Fonts](https://fonts.google.com/) used for the typography.
+- [Font Awesome](https://fontawesome.com/) was used to add icons.
+- [Bootstrap](https://getbootstrap.com/) was used to build the front-end.
+- [Django](https://www.djangoproject.com/) was used as the framework of the application.
+- [Gunicorn](https://gunicorn.org/) was used as the Web Server to run Django on Heroku.
+- [Pillow](https://pillow.readthedocs.io/en/stable/index.html) - Python Imaging Library used for image handling.
+- Django allauth used for account registration and authentication.
+- Django crispy forms used for form rendering.
+- [Amazon Web Services (AWS)](https://aws.amazon.com) used to store all of static files and images.
+- [Boto3](https://pypi.org/project/boto3/) the Amazon Web Services (AWS) Software Development Kit (SDK) for Python.
+- [Stripe](https://js.stripe.com/v3/) used for secure payments.
+- [Heroku](https://heroku.com/) was used to deploy the application and provides an enviroment in which the code can execute.
+<hr/>
+
 <a name="deploy"></a>
 # Deployment
 
@@ -84,8 +112,6 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 <br/>
 2. Click the fork button in the top right of the screen, between the watch, and the star buttons.
 </details>
-
-
 
 ## Deployment of the project
 
