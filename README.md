@@ -1,39 +1,75 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<a name="topofpage"></a>
 
-Welcome,
+# pjt4-PymaSnack
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Fourth Milestone Project - Code Institute
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+<hr>
 
-## Codeanywhere Reminders
+# Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+*   [Student Details](#student)
+*   [Introduction](#intro)
+*   [Disclaimer](#disclaimer)
+*   [Experience (UX)](#ux)
+    *   [Ideal client](#client)
+    *   [User stories](#userstory)
+* [Design]
+  * [Wireframes]
+  * [Entity Relationship Diagrams]
+  * [Theme]
+  * [Typography]
+* [Technologies used](#tech)
+*   [Content Sources](#sources)
+*   [Deployment](#deploy)
+*   [Acknowledgements](#acknowledgements)
 
-`python3 -m http.server`
+<hr>
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+<a name="student"></a>
+# Student Details
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Name: Szebasztian Pintyer
 
-`http_server`
+Student ID: 715159
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Institution: City of Bristol College (https://www.cityofbristol.ac.uk) in partnership with Code Institute (https://codeinstitute.net) 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+<hr>
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<a name="intro"></a>
+# Introduction
 
-To log into the Heroku toolbelt CLI:
+Welcome to my fourth project milestone's readme file!
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Pyma Snacks is a fictional company that is producing healthy snack alternatives for people who are concerned about the environment and want to contribute to environmental causes by supporting eco-friendly food producing companies.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+This project is part of the fourth milestone project within the course from City of Bristol College in partnership with Code Institute.
 
----
+The fourth milestone project's objective is to make a full-stack web application, that contains frontend and backend technologies with the backend: python and Django framework. The objective of this segment of the course is to create a e-commerce website, where users can register, create a shopping bag, edit the sopping bag and create and order.
 
-Happy coding!
+This enables to create a fully functional e-commerce website, where users can join a website and interact with the content found on the website.
+
+Github Repo - [https://github.com/PSebastian96/pjt4-Pyma]
+
+Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
+
+<hr>
+
+<a name="deploy"></a>
+# Deployment
+<details>
+  <summary><h2>How to Clone</h2></summary>
+1. Click the Code button to the left of the green Gitpod button, then choose Local.
+2. Click on headings for HTTPS, SSH, and Github CLI to find their individual URL links. Choose the HTTPs one.
+3. Open your own terminal in your editor and change the current working directory to the location of where you want the cloned directory to be.
+4. In the terminal type git clone, and then paste the URL you copied from the repository page.
+Press enter to start the process.
+5. To install the packages required by the application use the command : pip install -r requirements.txt
+6. When developing and running the application locally set DEBUG=True in the settings.py file
+Modifications performed on the local clone can be synchronized with the repository by executing the following commands:
+git add filenames (or "." to add all changed files)
+git commit -m "your message"
+git push Modifications pushed to the main branch will be implemented in the live project after re-deployment from Heroku. Ensure that you do not include DEBUG=True in the settings.py file on GitHub; this setting is intended exclusively for local use.
+
+</details>
