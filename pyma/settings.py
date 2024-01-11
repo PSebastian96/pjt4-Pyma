@@ -213,8 +213,7 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 DEFAULT_FROM_EMAIL = 'pyma@snacks.com'
 
 # Django email
-
-if 'USE_EMAIL_SERVICE' not in os.environ:
+if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     DEFAULT_FROM_EMAIL = 'pyma@snacks.com'
 else:
