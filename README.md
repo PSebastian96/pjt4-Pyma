@@ -61,15 +61,22 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 <details>
   <summary><h2>How to Clone</h2></summary>
 1. Click the Code button to the left of the green Gitpod button, then choose Local.
+<br/>
 2. Click on headings for HTTPS, SSH, and Github CLI to find their individual URL links. Choose the HTTPs one.
+<br/>
 3. Open your own terminal in your editor and change the current working directory to the location of where you want the cloned directory to be.
+<br/>
 4. In the terminal type git clone, and then paste the URL you copied from the repository page.
 Press enter to start the process.
+<br/>
 5. To install the packages required by the application use the command : pip install -r requirements.txt
+<br/>
 6. When developing and running the application locally set DEBUG=True in the settings.py file
 Modifications performed on the local clone can be synchronized with the repository by executing the following commands:
+<br/>
 git add filenames (or "." to add all changed files)
+<br/>
 git commit -m "your message"
+<br/>
 git push Modifications pushed to the main branch will be implemented in the live project after re-deployment from Heroku. Ensure that you do not include DEBUG=True in the settings.py file on GitHub; this setting is intended exclusively for local use.
-
 </details>
