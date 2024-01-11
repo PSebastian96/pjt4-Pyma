@@ -59,7 +59,7 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 <a name="deploy"></a>
 # Deployment
 
-<p>
+
 <details><summary><h3>How To Clone</h3></summary><br/>
 
 1. Go to the <https://github.com/PSebastian96/pjt4-Pyma> repository.
@@ -78,14 +78,15 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 </details>
 
 <details>
-    <details><summary><h3>How ToFork</h3></summary><br/>
+    <details><summary><h3>How To Fork</h3></summary><br/>
 1. Go to the https://github.com/PSebastian96/pjt4-Pyma repository.
 <br/>
 2. Click the fork button in the top right of the screen, between the watch, and the star buttons.
 </details>
 <br/>
+
 ### Deployment of the project
-<p>
+
 <details>
     <summary><h3>Create a respository on GitHub</h3></summary>
     - Use the [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template) to create a project
@@ -101,7 +102,6 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
   - Set the environment variables (same values as later in Heroku Config Vars)
 </details>
 
-<p>
 <details>
     <summary><h3>ElephantSQL</h3></summary>
     - Create an account on [ElephantSQL](https://www.elephantsql.com/) and click "Create New Instance"
@@ -166,7 +166,6 @@ Do not commit with this database string in the code to avoid leaving database UR
 - This is your proof that the tables have been created and you can add data to your database.
 </details>
 
-<p>
 <details>
     <summary><h3>Heroku</h3></summary>
     - Create a Heroku application by pressing "New" on located on the upper right side of the main page
@@ -221,7 +220,6 @@ Config Vars in Heroku should have:
 - STRIPE_SECRET_KEY = 'your variable'
 - STRIPE_WH_SECRET = 'your variable'
 - USE_AWS = True
-
 </details>
 
 <details>
@@ -235,8 +233,7 @@ Config Vars in Heroku should have:
 - To manually deploy: enter 'main' as the name of the branch and press 'Deploy Branch'
 - Main branch starts building up automatically
 - At the end of the build a message pops up: 'Your app was successfully deployed' and a button: 'View'
-- Click on 'View' to see the live project. The live link to the project is [HERE](<https://earthalchemy-naturals-99139eee523b.herokuapp.com/>)
-
+- Click on 'View' to see the live project.
 </details>
 
 <details>
@@ -315,7 +312,6 @@ Install boto3 and django-storages
 Add the values from the .csv you downloaded to your Heroku Config Vars, then delete the DISABLE_COLLECTSTATIC variable and deploy your Heroku app.
 
 With your S3 bucket now set up, you can create a new folder called media and upload any required media files to it. - these folder and so the files need to be publicly accessable!
-
 </details>
 
 <details>
@@ -325,5 +321,4 @@ With your S3 bucket now set up, you can create a new folder called media and upl
 - Add STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY to the Heroku config vars, find these variables values in your Stripe account dashboard
 - Create a webhook endpoint for use with your applications.  On the stripe dashboard go to 'Developers' then Webhooks, click add endpoint, use the url of your Heroku application with '/checkout/wh/' added onto the end of the url string.  When configuring the endpoint, add all events.
 - Once the endpoint is set up, retrieve the signing secret key for the webhooks and save this value as a Heroku config var called STRIPE_WH_SECRET.
-
 </details>
