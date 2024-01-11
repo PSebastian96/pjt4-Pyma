@@ -79,12 +79,12 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 
 <p>
 <details>
-    <details><summary><h3>How To Fork</h3></summary><br/>
+    <summary><h3>How To Fork</h3></summary><br/>
 1. Go to the https://github.com/PSebastian96/pjt4-Pyma repository.
 <br/>
 2. Click the fork button in the top right of the screen, between the watch, and the star buttons.
 </details>
-</p>
+
 
 
 ### Deployment of the project
