@@ -87,11 +87,12 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 
 
 
-### Deployment of the project
+## Deployment of the project
 
 <details>
     <summary><h3>Create a respository on GitHub</h3></summary>
-    - Use the [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template) to create a project
+
+- Use the [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template) to create a project
 - Click on 'Use this template' then 'Create a new respository'
 - Fill out the form, especially the 'Repository name' then click on 'Create repository'
 - Copy over the URL of the repository and paste it into a New Workspace on Codeanywhere then it will start to build.
@@ -106,7 +107,8 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 
 <details>
     <summary><h3>ElephantSQL</h3></summary>
-    - Create an account on [ElephantSQL](https://www.elephantsql.com/) and click "Create New Instance"
+
+- Create an account on [ElephantSQL](https://www.elephantsql.com/) and click "Create New Instance"
 - In "Create new instance" section setup details:
     - Select the TINY TURTLE database plan and name,
     - Select region,
@@ -151,14 +153,14 @@ Do not commit with this database string in the code to avoid leaving database UR
   - python3 manage.py createsuperuser
 - Prevent exposing the database when pushing to GitHub and delete it from settings.py.
 
-    `
-     DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+`
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-    `
+`
 
 **Confirming migrations in ElephantSQL**
 
@@ -317,7 +319,7 @@ With your S3 bucket now set up, you can create a new folder called media and upl
 </details>
 
 <details>
-<summary>Configure STRIPE config vars and webhooks</summary>
+<summary><h3>Configure STRIPE config vars and webhooks</h3></summary>
 
 - Log in to your Stripe account
 - Add STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY to the Heroku config vars, find these variables values in your Stripe account dashboard
