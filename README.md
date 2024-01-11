@@ -59,9 +59,8 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 <a name="deploy"></a>
 # Deployment
 
-
-<details><summary><h3>How To Clone</h3></summary><br/>
-
+<p>
+<details><summary><h3>How To Clone</h3></summary>
 1. Go to the <https://github.com/PSebastian96/pjt4-Pyma> repository.
 2. Click the Code button to the left of the green Gitpod button, then choose Local.
 3. Click on headings for HTTPS, SSH, and Github CLI to find their individual URL links. Choose the HTTPs one.
@@ -76,14 +75,17 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
     -  git push
  Modifications pushed to the main branch will be implemented in the live project after re-deployment from Heroku. Ensure that you do not include DEBUG=True in the settings.py file on GitHub; this setting is intended exclusively for local use.
 </details>
+</p>
 
+<p>
 <details>
     <details><summary><h3>How To Fork</h3></summary><br/>
 1. Go to the https://github.com/PSebastian96/pjt4-Pyma repository.
 <br/>
 2. Click the fork button in the top right of the screen, between the watch, and the star buttons.
 </details>
-<br/>
+</p>
+
 
 ### Deployment of the project
 
