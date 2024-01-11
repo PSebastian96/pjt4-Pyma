@@ -1,0 +1,24 @@
+#msg-container {
+    width: 100%;
+    position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.success {
+    font-size: 1.2rem;
+    color: rgb(79, 248, 79);
+    position: absolute;
+    animation: 0.3s linear;
+    display: none;
+}
+
+.failed {
+    font-size: 1.2rem;
+    color: rgb(248, 55, 55);
+    position: absolute;
+    animation: 0.3s linear;
+    display: none;
+}
