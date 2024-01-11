@@ -1,0 +1,1 @@
+web: gunicorn pyma.wsgi:application
