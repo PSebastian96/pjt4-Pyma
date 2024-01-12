@@ -83,10 +83,10 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 
 - Main colours of the web site are: White, Black, Navy blue and Dark blue.
 
-1. Header, Footer and Navbar use Dark Blue Colour - rgb(8, 8, 72).
+1. Header, Footer and Navbar use Dark Blue Colour - rgb(8, 8, 72) .
 <img width="263" alt="darkblue" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/82d84c22-b853-41e0-869e-283e1ad328f7">
 
-2. Background colour for the pages use Lighter Navy Blue colour - rgb().
+2. Background colour for the pages use Lighter Navy Blue colour - rgb(0, 0, 134).
 <img width="263" alt="navyblue" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/7b861f55-262b-478e-97c9-e845485acb11">
 
 3. Text Content uses mostly White(hex. #FFFFFF) colour, where the background is white (toasts/notifications) the text content uses Black(hex. #000000) colour.
