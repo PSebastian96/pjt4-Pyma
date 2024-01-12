@@ -58,7 +58,7 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 
 <a name="disclaimer"></a>
 # Disclaimer
-<h1>THIS IS A PROJECT ONLY FOR EDUCATIONAL PORPUSES.</h1>
+<h1>THIS IS A PROJECT ONLY FOR EDUCATIONAL PURPOSES.</h1>
 
 <hr/>
 
