@@ -22,7 +22,7 @@ Fourth Milestone Project - Code Institute
 *  [Testing](#test)
 *  [Content Sources](#sources)
 *  [Deployment](#deploy)
-*  [Acknowledgements](#acknowledgements)
+*  [Acknowledgements & Refrences](#acknowledgements)
 
 <hr>
 
@@ -204,7 +204,7 @@ The B2B ideal client is:
 ### Framework, Libraries:
 
 - [Github](https://github.com) Was used to store the repository and files for the project.  
-- [Gitpod](https://www.gitpod.io/docs/introduction) was used for version control, allowing me to commit changes and push them to GitHub directly from the Gitpod terminal. It was the primary code editor.
+- [Gitpod](https://www.gitpod.io/docs/introduction) was used for version control, commiting changes and push them to GitHub.
 - [Google Fonts](https://fonts.google.com/) used for the typography.
 - [Font Awesome](https://fontawesome.com/) was used to add icons.
 - [Bootstrap](https://getbootstrap.com/) was used to build the front-end.
@@ -213,6 +213,7 @@ The B2B ideal client is:
 - [Pillow](https://pillow.readthedocs.io/en/stable/index.html) - Python Imaging Library used for image handling.
 - Django allauth used for account registration and authentication.
 - Django crispy forms used for form rendering.
+- [ElephantSQL](https://www.elephantsql.com) used to create the back-end database for the project.
 - [Amazon Web Services (AWS)](https://aws.amazon.com) used to store all of static files and images.
 - [Boto3](https://pypi.org/project/boto3/) the Amazon Web Services (AWS) Software Development Kit (SDK) for Python.
 - [Stripe](https://js.stripe.com/v3/) used for secure payments.
@@ -530,8 +531,8 @@ Config Vars in Heroku should have:
   - Go back and get the Bucket Policy ARN
   - Change the Resource value from *to ARN bucket and its contents - e.g : <br>
         "Resource": [<br>
-                    "arn:aws:s3:::earthalchemy-naturals",<br>
-                    "arn:aws:s3:::earthalchemy-naturals/*"<br>
+                    "arn:aws:s3:::pymasnack-pjt4",<br>
+                    "arn:aws:s3:::pymasnack-pjt4/*"<br>
                 ]<br>
   - Click Next and then Review Policy
   - Give the policy a name and click Create Policy
@@ -544,8 +545,8 @@ Config Vars in Heroku should have:
 
 			if 'USE_AWS' in os.environ:
 				# Bucket Config
-				AWS_STORAGE_BUCKET_NAME = 'earthalchemy-naturals'
-				AWS_S3_REGION_NAME = 'eu-west-2'
+				AWS_STORAGE_BUCKET_NAME = 'pymasnack-pjt4'
+				AWS_S3_REGION_NAME = 'eu-west-1'
 				AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 				AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 
@@ -594,7 +595,9 @@ With your S3 bucket now set up, you can create a new folder called media and upl
 <hr/>
 
 <a name="acknowledgements"></a>
-# Acknowledgements
+# Acknowledgements & Refrences
+
+- This project was made by following along and refrencing from the curiculum of Code Institute and Boutique Ado walktrhough project.
 
 -   Tutor support at Code Institute for their support.
 
