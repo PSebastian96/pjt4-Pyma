@@ -175,6 +175,19 @@ The B2B ideal client is:
 
 ### Database Schema
 
+- The functionality of the PymaSnacks Django app, within the models of each app, acts as the back-end logic for storing essential information in databases.
+
+- The Entity Relationship Diagrams below illustrate how the models are connected to each other:
+- Product Model:
+	- The Product model is related to the Category model using a ForeignKey, allowing products to be categorized.
+- Order Model:
+	- The Order model is related to the UserProfile model through a ForeignKey, indicating that each order is associated with a user profile.
+- OrderLineItem Model:
+	- The OrderLineItem model is related to the Order and Product models using ForeignKeys. It represents individual line items within an order and is associated with the products ordered in each order.
+
+<img width="381" alt="image" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/c409126f-654b-49b8-96b0-7af0fc930ba6">
+
+
 <hr/>
 
 <a name="tech"></a>
@@ -500,6 +513,12 @@ With your S3 bucket now set up, you can create a new folder called media and upl
 
 <a name="sources"></a>
 # Content Sources
+
+### Wireframe
+- Diagrams made with Diagrams.net [https://app.diagrams.net]
+
+### Responsivness
+- Responsive Images made with Am I Responsive? [https://ui.dev/amiresponsive]
 
 ### Images:
 - [Gencraft](https://gencraft.com) Is an machine learning web app that generates images by text input.
