@@ -82,26 +82,36 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 ### Colour Theme
 
 Main colours of the web site are: White, Black, Navy blue and Dark blue.
-<br>
+<br/>
 1. Header, Footer and Navbar use Dark Blue Colour - rgb(8, 8, 72) .
-<br>
+<br/>
 2. Background colour for the pages use Lighter Navy Blue colour - rgb().
-<br>
+<br/>
 3. Text Content uses mostly White(hex. #FFFFFF) colour, where the background is white (toasts/notifications) the text content uses Black(hex. #000000) colour.
-<br>
+<br/>
 
 ### Typography
 
 1. Logo uses the 'Fontdiner Swanky' google font.
-<br>
+
+<br/>
+
 <img width="215" alt="image" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/650a388d-338a-4581-9725-7e52756d2345">
-<br>
+
+<br/>
+
 2. Titles use the'Rubik Moonrocks' google font.
-<br>
+
+<br/>
+
 <img width="139" alt="image" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/7eefc096-8ef6-4477-bc48-21ba4cf94f7c">
-<br>
+
+<br/>
+
 3. Text uses the 'Nanum Pen Script' google font.
+
 <br>
+
 <img width="605" alt="image" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/662bc969-a4d0-446a-a594-efa3f34b2670">
 
 <hr/>
