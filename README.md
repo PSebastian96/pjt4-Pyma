@@ -66,6 +66,22 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 <a name="client"></a>
 #### Ideal client
 
+The ideal client for this business is:
+
+- Young demographic, ages between 18-30
+- Customers based in the United Kingdom
+- Customers who enjoy healthy alternative snacks
+- People who care about environment
+- People who want to support eco friendly food producers
+
+The B2B ideal client is:
+
+- A business that has multiple offices
+- A multinational business 
+- Business's who enjoy healthy alternative snacks
+- Business's who want to support eco friendly food producers
+- Business's based in within United Kingdom
+
 <br/>
 
 <a name="userstory"></a>
