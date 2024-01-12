@@ -286,6 +286,11 @@ The B2B ideal client is:
 
 ### Stripe payment testing:
 
+1. Payment processing:
+<img width="910" alt="payment1" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/7d18dcc2-46f4-41d0-a9e7-8d6503e831d7">
+
+2. Payment successfull notification:
+<img width="898" alt="payment2" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/dff3d625-8f53-4850-bfd0-e9f0a4a7a8ac">
 
 ### EmailJS API testing:
 
