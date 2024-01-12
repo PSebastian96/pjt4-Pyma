@@ -14,15 +14,15 @@ Fourth Milestone Project - Code Institute
 *   [Experience (UX)](#ux)
     *   [Ideal client](#client)
     *   [User stories](#userstory)
-* [Design]
-  * [Wireframes]
-  * [Entity Relationship Diagrams]
-  * [Theme]
-  * [Typography]
-* [Technologies used](#tech)
-*   [Content Sources](#sources)
-*   [Deployment](#deploy)
-*   [Acknowledgements](#acknowledgements)
+*   [Design]
+    * [Wireframes]
+    * [Entity Relationship Diagrams]
+    * [Theme]
+    * [Typography]
+*  [Technologies used](#tech)
+*  [Content Sources](#sources)
+*  [Deployment](#deploy)
+*  [Acknowledgements](#acknowledgements)
 
 <hr>
 
@@ -359,6 +359,15 @@ With your S3 bucket now set up, you can create a new folder called media and upl
 - Create a webhook endpoint for use with your applications.  On the stripe dashboard go to 'Developers' then Webhooks, click add endpoint, use the url of your Heroku application with '/checkout/wh/' added onto the end of the url string.  When configuring the endpoint, add all events.
 - Once the endpoint is set up, retrieve the signing secret key for the webhooks and save this value as a Heroku config var called STRIPE_WH_SECRET.
 </details>
+
+<hr/>
+
+<a name="sources"></a>
+# Sources
+
+### Images:
+- [Gencraft](https://gencraft.com) Is an machine learning web app that generates images by text input.
+- [Removebg](https://www.remove.bg) Is a open source web app for removing background from images. 
 
 <hr/>
 
