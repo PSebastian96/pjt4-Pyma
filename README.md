@@ -364,7 +364,7 @@ With your S3 bucket now set up, you can create a new folder called media and upl
 <hr/>
 
 <a name="sources"></a>
-# Sources
+# Content Sources
 
 ### Images:
 - [Gencraft](https://gencraft.com) Is an machine learning web app that generates images by text input.
