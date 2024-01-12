@@ -28,12 +28,6 @@ html {
     color: #ffc107;
 }
 
-.hero-img {
-    width: 30vh;
-    height: 30vh;
-    object-fit: cover;
-}
-
 /* background colours */
 
 .bg-navyblue {

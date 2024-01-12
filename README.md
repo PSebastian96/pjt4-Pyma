@@ -14,11 +14,7 @@ Fourth Milestone Project - Code Institute
 *   [Experience (UX)](#ux)
     *   [Ideal client](#client)
     *   [User stories](#userstory)
-*   [Design]
-    * [Wireframes]
-    * [Entity Relationship Diagrams]
-    * [Theme]
-    * [Typography]
+*  [Design](#design)
 *  [Technologies used](#tech)
 *  [Content Sources](#sources)
 *  [Deployment](#deploy)
@@ -61,6 +57,50 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 
 <h1>THIS PROJECT IS FOR EDUCATIONAL PURPOSES ONLY.</h1>
 
+<hr/>
+
+<a name="ux"></a>
+# User Experience
+
+<a name="client"></a>
+#### Ideal client
+
+<br/>
+
+<a name="userstory"></a>
+#### User stories
+
+<hr/>
+
+<a name="design"></a>
+# Design
+
+### Wireframe
+
+<br/>
+
+### Colour Theme
+
+Main colours of the web site are: White, Black, Navy blue and Dark blue.
+
+1. Header, Footer and Navbar use Dark Blue Colour - rgb(8, 8, 72) .
+<br>
+
+2. Text Content uses mostly White(hex. #FFFFFF) colour, where the background is white (toasts/notifications) the text content uses Black(hex. #000000) colour.
+
+<br/>
+
+### Typography
+
+1. Logo uses the 'Fontdiner Swanky' google font.
+<br>
+
+<br>
+2. Titles use the'Rubik Moonrocks' google font.
+<br>
+img
+<br>
+3. Text uses the 'Nanum Pen Script' google font.
 <hr/>
 
 <a name="tech"></a>
