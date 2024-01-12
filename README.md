@@ -272,7 +272,22 @@ The B2B ideal client is:
 - stripe_elements.js file:
 <img width="731" alt="stripejs" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/57aefd30-8d62-4713-8d9d-c0fffaa7fbb6">
 
+### Python Syntax Checker (https://www.pythonchecker.com)
 
+- All the warnings state to put a white space around the operators.
+
+-  profile models.py file:
+<img width="909" alt="profilemodelspy" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/304bae90-a7ac-459e-a28b-f9f0ed729845">
+
+<br/>
+
+- checkout views.py file:
+<img width="908" alt="image" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/d6543b2d-d8d9-4a64-a023-1b91112efdb4">
+
+### Stripe payment testing:
+
+
+### EmailJS API testing:
 
 <hr/>
 
