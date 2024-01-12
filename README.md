@@ -5,7 +5,8 @@
 Fourth Milestone Project - Code Institute
 
 <hr>
-<img width="672" alt="image" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/c64b2a08-7be0-40b6-9a5c-208753e0dc99">
+<img width="661" alt="mainphoto" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/b70b0d9d-82a7-4191-91ee-ba2e6c3e4828">
+
 <hr>
 
 # Table of Contents
