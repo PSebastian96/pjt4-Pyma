@@ -129,6 +129,11 @@ The B2B ideal client is:
 
 <img width="605" alt="image" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/662bc969-a4d0-446a-a594-efa3f34b2670">
 
+
+<br/>
+
+### Database Schema
+
 <hr/>
 
 <a name="tech"></a>
