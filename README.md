@@ -81,14 +81,12 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 
 ### Colour Theme
 
-Main colours of the web site are: White, Black, Navy blue and Dark blue.
-<br/>
+- Main colours of the web site are: White, Black, Navy blue and Dark blue.
+
 1. Header, Footer and Navbar use Dark Blue Colour - rgb(8, 8, 72) .
-<br/>
 2. Background colour for the pages use Lighter Navy Blue colour - rgb().
-<br/>
 3. Text Content uses mostly White(hex. #FFFFFF) colour, where the background is white (toasts/notifications) the text content uses Black(hex. #000000) colour.
-<br/>
+
 
 ### Typography
 
