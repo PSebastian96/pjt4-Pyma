@@ -126,6 +126,15 @@ The B2B ideal client is:
 
 ### Wireframe
 
+- Desktop and Tablet view:
+<img width="385" alt="tablet_view" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/157a6268-2e2a-4e10-b8a1-4724c8bba592">
+
+- Mobile view:
+<img width="165" alt="mobile_view" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/d39effae-3b1c-4e1e-bf48-c21fa0bf977c">
+
+- Order Forms:
+<img width="302" alt="image" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/d05bdae1-d39b-45a5-a360-6c0a4cb39382">
+
 <br/>
 
 ### Colour Theme
