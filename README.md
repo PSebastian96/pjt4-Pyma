@@ -93,17 +93,28 @@ The B2B ideal client is:
 - User Authentication: As a returning user,possibility to login using existing credentials or logout in order to access personal information in a secure way. 
 - Personal User Profile: As a site user, make access to personalized user profile in order to view order history and payment information and keep track of purchases.
 - Purpose of website and navigation: As a site user, enable quick identifying of what the website is selling and easily navigate the pages in order to find the information the user is looking for.
+- As a user, create a profile page, where the user would be able to update delivery detials, personal details, payment details.
+- Product View: Make the product listing convenient and easy to view and access.
+- Product Details: As a customer, enable view detailed information about each product in order to make the best decision for my purchase.
 
 2. Product Management/Admin:
 
-- Product View: Make the product listing convenient 
-- Product Details: As a shopper, I can view detailed information about each product so that I can make the best decision for my purchase.
-- Product Creation: As an admin, I can add new products to the website so that I can keep my shop up to date.
-- Product Update: As an admin, I can edit product information so that all products have the most relevant and useful information.
-- Product Deletion: As an admin, I can remove products that are no longer available so that I can keep my shop up to date.
-- Super User:
+- Product Creation: As an admin, add new products to the website so that shop is up to date.
+- Product Update: As an admin, edit product information so that all products have the most relevant and useful information.
+- Product Deletion: As an admin remove products that are no longer available so that the shop up is to date.
+- Category Creation: As an admin, be able to create a new category for new products.
+- Category Deletion: As an admin, to be able to remove categories for products.
+- Super User: Be able to allow staff accounts/admin accounts for product management and for creating manual orders.
 
 3. Shopping Cart and Checkout:
+
+- Add to Cart: As a customer, I can add products to my shopping cart in order to purchase one or multiple items.
+- Cart Management: As a customer, I can update the quantity or remove items from my cart so that I can make changes later on in the process or remove any unwanted products.
+- View shopping cart total: As a customer, have a view of the total amount of the cart at any time in order to see the total value of the order.
+- Checkout Summary: As a, I can view a checkout page so that see details of my order and my delivery and payment details.
+- Order Confirmation: As a shopper I can view an order confirmation so that I see the relevant details after completing my purchase.
+- Secure Payment Process: As a shopper, I can enter my card details with an intuitive checkout process so that I proceed with a secure and payment and purchase.
+- Notifications: As a shopper, I can receive small messages from the website so that I am reassured on all actions and interactions throughout my visit.
 
 <hr/>
 
