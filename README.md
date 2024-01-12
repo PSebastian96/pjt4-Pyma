@@ -11,7 +11,7 @@ Fourth Milestone Project - Code Institute
 *   [Student Details](#student)
 *   [Introduction](#intro)
 *   [Disclaimer](#disclaimer)
-*   [Experience (UX)](#ux)
+*   [User Experience (UX)](#ux)
     *   [Ideal client](#client)
     *   [User stories](#userstory)
 *  [Design](#design)
