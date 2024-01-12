@@ -87,6 +87,24 @@ The B2B ideal client is:
 <a name="userstory"></a>
 #### User stories
 
+1. User Management:
+
+- User Registration: As a new user, possibility to register an account with email and password in order for the user to view their profile.
+- User Authentication: As a returning user,possibility to login using existing credentials or logout in order to access personal information in a secure way. 
+- Personal User Profile: As a site user, make access to personalized user profile in order to view order history and payment information and keep track of purchases.
+- Purpose of website and navigation: As a site user, enable quick identifying of what the website is selling and easily navigate the pages in order to find the information the user is looking for.
+
+2. Product Management/Admin:
+
+- Product View: Make the product listing convenient 
+- Product Details: As a shopper, I can view detailed information about each product so that I can make the best decision for my purchase.
+- Product Creation: As an admin, I can add new products to the website so that I can keep my shop up to date.
+- Product Update: As an admin, I can edit product information so that all products have the most relevant and useful information.
+- Product Deletion: As an admin, I can remove products that are no longer available so that I can keep my shop up to date.
+- Super User:
+
+3. Shopping Cart and Checkout:
+
 <hr/>
 
 <a name="design"></a>
