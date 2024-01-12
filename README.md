@@ -56,6 +56,12 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 
 <hr>
 
+<a name="disclaimer"></a>
+# Disclaimer
+<h1>THIS IS A PROJECT ONLY FOR EDUCATIONAL PORPUSES.</h1>
+
+<hr/>
+
 <a name="tech"></a>
 # Technologies Used
 
@@ -353,3 +359,12 @@ With your S3 bucket now set up, you can create a new folder called media and upl
 - Create a webhook endpoint for use with your applications.  On the stripe dashboard go to 'Developers' then Webhooks, click add endpoint, use the url of your Heroku application with '/checkout/wh/' added onto the end of the url string.  When configuring the endpoint, add all events.
 - Once the endpoint is set up, retrieve the signing secret key for the webhooks and save this value as a Heroku config var called STRIPE_WH_SECRET.
 </details>
+
+<hr/>
+
+<a name="acknowledgements"></a>
+# Acknowledgements
+
+-   Tutor support at Code Institute for their support.
+
+-   City of Bristol College for their support and help with my studies.
