@@ -94,23 +94,17 @@ Main colours of the web site are: White, Black, Navy blue and Dark blue.
 
 1. Logo uses the 'Fontdiner Swanky' google font.
 
-<br/>
-
 <img width="215" alt="image" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/650a388d-338a-4581-9725-7e52756d2345">
 
 <br/>
 
 2. Titles use the'Rubik Moonrocks' google font.
 
-<br/>
-
 <img width="139" alt="image" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/7eefc096-8ef6-4477-bc48-21ba4cf94f7c">
 
 <br/>
 
 3. Text uses the 'Nanum Pen Script' google font.
-
-<br>
 
 <img width="605" alt="image" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/662bc969-a4d0-446a-a594-efa3f34b2670">
 
