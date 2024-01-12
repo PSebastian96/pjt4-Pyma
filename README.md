@@ -93,6 +93,7 @@ The B2B ideal client is:
 - User Authentication: As a returning user,possibility to login using existing credentials or logout in order to access personal information in a secure way. 
 - Personal User Profile: As a site user, make access to personalized user profile in order to view order history and payment information and keep track of purchases.
 - Purpose of website and navigation: As a site user, enable quick identifying of what the website is selling and easily navigate the pages in order to find the information the user is looking for.
+- As a visitor, make the information about the product details and nutritional values accessible on the 'about us' and 'product details' pages.
 - As a user, create a profile page, where the user would be able to update delivery detials, personal details, payment details.
 - Product View: Make the product listing convenient and easy to view and access.
 - Product Details: As a customer, enable view detailed information about each product in order to make the best decision for my purchase.
@@ -111,10 +112,10 @@ The B2B ideal client is:
 - Add to Cart: As a customer, I can add products to my shopping cart in order to purchase one or multiple items.
 - Cart Management: As a customer, I can update the quantity or remove items from my cart so that I can make changes later on in the process or remove any unwanted products.
 - View shopping cart total: As a customer, have a view of the total amount of the cart at any time in order to see the total value of the order.
-- Checkout Summary: As a, I can view a checkout page so that see details of my order and my delivery and payment details.
-- Order Confirmation: As a shopper I can view an order confirmation so that I see the relevant details after completing my purchase.
-- Secure Payment Process: As a shopper, I can enter my card details with an intuitive checkout process so that I proceed with a secure and payment and purchase.
-- Notifications: As a shopper, I can receive small messages from the website so that I am reassured on all actions and interactions throughout my visit.
+- Checkout Summary: View a checkout page so that the details of the order, delivery and payment details are visible for the customer.
+- Order Confirmation: As a customer, I want to be able to view an order confirmation, so the relevant details are visible after completing the purchase.
+- Secure Payment Process: As a customer, I can enter the card details with an intuitive checkout process so that the purchase proceeds with a secure payment.
+- Notifications: As a customer, be notified by small pop-up messages from the website so that the customer is reassured on all actions and interactions throughout their visit.
 
 <hr/>
 
