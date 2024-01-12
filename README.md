@@ -192,6 +192,22 @@ The B2B ideal client is:
 - [Boto3](https://pypi.org/project/boto3/) the Amazon Web Services (AWS) Software Development Kit (SDK) for Python.
 - [Stripe](https://js.stripe.com/v3/) used for secure payments.
 - [Heroku](https://heroku.com/) was used to deploy the application and provides an enviroment in which the code can execute.
+
+### Emailjs API :
+
+- Emailjs - [https://www.emailjs.com]
+
+- Emailjs offers an emailing service for websites. This includes two type of API's : 1. free and personal use of up to 200 session/month and 2. a business API.
+  For this project I have signed up for the free/personal use of email service with 200 available sessions/month.
+  This API is allowing the developer to receive emails from the forms which are designed for the website for various pourposes.
+  The emailjs API makes the following possible:
+   
+   - The user can fill out the contact form with their details and their query or message.
+   - The API connects the "business" or personal email account (gmail,outlook etc) with the websites form and makes it possible to receive the visitors inputs from 
+     the same form.
+   - API also offers an auto reply mode and it's content is customizable and can fit any business/personal needs for emailing.
+
+ - For any further details about the application of this API, please find the details in the official documentation of the emailjs API [https://www.emailjs.com/docs/].
 <hr/>
 
 <a name="test"></a>
