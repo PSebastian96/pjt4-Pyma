@@ -16,6 +16,7 @@ Fourth Milestone Project - Code Institute
     *   [User stories](#userstory)
 *  [Design](#design)
 *  [Technologies used](#tech)
+*  [Testing](#test)
 *  [Content Sources](#sources)
 *  [Deployment](#deploy)
 *  [Acknowledgements](#acknowledgements)
@@ -140,6 +141,11 @@ Heroku Deployed Link - [https://pymasnack-pj4-666aee4e185d.herokuapp.com]
 - [Boto3](https://pypi.org/project/boto3/) the Amazon Web Services (AWS) Software Development Kit (SDK) for Python.
 - [Stripe](https://js.stripe.com/v3/) used for secure payments.
 - [Heroku](https://heroku.com/) was used to deploy the application and provides an enviroment in which the code can execute.
+<hr/>
+
+<a name="test"></a>
+# Testing
+
 <hr/>
 
 <a name="deploy"></a>
