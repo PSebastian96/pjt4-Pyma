@@ -289,6 +289,15 @@ The B2B ideal client is:
 
 ### EmailJS API testing:
 
+Manual testing of EmailJS API in the browser:
+
+- User fails to fill the form:
+<img width="911" alt="emailjsfail" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/8eab2484-4526-49d9-b15f-83187b576c0a">
+
+- User successfully fills the form and it's received (HTTP 200 - OK success status response code):
+<img width="910" alt="emailjssuccess" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/1d1e426a-3c1a-4b58-a385-7b38455e8c42">
+
+
 <hr/>
 
 <a name="deploy"></a>
