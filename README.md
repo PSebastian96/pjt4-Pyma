@@ -237,6 +237,43 @@ The B2B ideal client is:
 <a name="test"></a>
 # Testing
 
+### HTML validator (https://validator.w3.org)
+
+- When testing HTML pages, most of the warnings are due to the markup not recognising Jinja templates fully.
+
+- base.html page:
+<img width="865" alt="test-base" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/0359022f-6d6a-449f-9eaf-259b31a1f37d">
+
+- index.html page:
+<img width="860" alt="test-index" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/f58144cc-823d-4a8a-b1f4-d3a3cf103ebe">
+
+- about.html page:
+<img width="873" alt="test-about" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/f93e1adf-0053-42e1-8d23-af64063982fd">
+
+- bag.html page:
+<img width="869" alt="test-bag" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/ec528937-c119-4c78-a2e6-b0687bb60f5c">
+
+### CSS validator (https://jigsaw.w3.org/css-validator/)
+
+- base.css file:
+<img width="894" alt="basecss" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/321a0100-a6e1-42fe-b246-9b44d99ee869">
+
+- checkout.css file:
+<img width="893" alt="checkoutcss" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/df81db04-41e7-4007-b82a-bb2210ce9708">
+
+- contact.css file:
+<img width="890" alt="contactcss" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/7b9e3d11-3d4a-4b23-bdd2-157feeefe682">
+
+### JS Hint (https://jshint.com)
+
+- messagescript.js file:
+<img width="882" alt="messagejs" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/ae9c645f-875f-4fa0-9ff7-fe73e4f61037">
+
+- stripe_elements.js file:
+<img width="731" alt="stripejs" src="https://github.com/PSebastian96/pjt4-Pyma/assets/123810890/57aefd30-8d62-4713-8d9d-c0fffaa7fbb6">
+
+
+
 <hr/>
 
 <a name="deploy"></a>
